@@ -1,3 +1,26 @@
+
+Skip to content
+This repository
+
+    Explore
+    Gist
+    Blog
+    Help
+
+    @annhnova annhnova
+
+1
+0
+
+    0
+
+annhnova/dcww
+
+dcww/codeher.css
+@annhnova annhnova an hour ago Create codeher.css
+
+1 contributor
+568 lines (416 sloc) 33.151 kB
 /*****HTML5 BOILERPLATE MINIFIED*******/
 
 *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}article{display:block}aside{display:block}details{display:block}figcaption{display:block}figure{display:block;margin:0}footer{display:block}header{display:block}hgroup{display:block}nav{display:block}section{display:block}audio{display:inline;zoom:1}canvas{display:inline;zoom:1}video{display:inline;zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-serif;color:#222}button{font-family:sans-serif;color:#222;font-size:100%;vertical-align:middle;line-height:normal;cursor:pointer;-webkit-appearance:button;overflow:visible;margin:0}input{font-family:sans-serif;color:#222;font-size:100%;vertical-align:middle;line-height:normal;margin:0}select{font-family:sans-serif;color:#222;font-size:100%;vertical-align:middle;margin:0}textarea{font-family:sans-serif;color:#222;font-size:100%;overflow:auto;vertical-align:top;resize:vertical;margin:0}body{font-size:1em;line-height:1.4;margin:0}::-moz-selection{background:#333;color:#fff;text-shadow:none}::selection{background:#333;color:#fff;text-shadow:none}abbr[title]{border-bottom:1px dotted}b{font-weight:700}strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:700}pre{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em;white-space:pre-wrap;word-wrap:break-word}code{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}kbd{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}q{quotes:none}q:before{content:none}q:after{content:none}small{font-size:85%}sub{font-size:75%;line-height:0;position:relative;vertical-align:baseline;bottom:-.25em}sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-.5em}ul{margin:1em 0;padding:0 0 0 40px}ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul{list-style:none;list-style-image:none;margin:0;padding:0}nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}svg:not(:root){overflow:hidden}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;margin-left:-7px;white-space:normal;padding:0}input[type="button"]{cursor:pointer;-webkit-appearance:button;overflow:visible}input[type="reset"]{cursor:pointer;-webkit-appearance:button;overflow:visible}input[type="submit"]{cursor:pointer;-webkit-appearance:button;overflow:visible}button[disabled]{cursor:default}input[disabled]{cursor:default}input[type="checkbox"]{box-sizing:border-box;width:13px;height:13px;padding:0}input[type="radio"]{box-sizing:border-box;width:13px;height:13px;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner{border:0;padding:0}input::-moz-focus-inner{border:0;padding:0}input:invalid{background-color:#f0dddd}textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.chromeframe{background:#ccc;color:#000;margin:.2em 0;padding:.2em 0}
@@ -52,14 +75,14 @@ footer p { margin: 0; }
 
 /*Hero*/
 
-#hero { background: url('../../images/hero.jpg') no-repeat center top; background-size: cover; color: #121212; height: 724px; }
+#hero { background: url('http://codeherconference.com/wp-content/themes/fudge/images/hero.jpg') no-repeat center top; background-size: cover; color: #121212; height: 724px; }
 #hero h1 { font-size: 62px; line-height: 80px; margin: 180px 0 20px; }
 #hero p { font-size: 28px; margin: 0; }
 #hero a.btn { border-radius: 6px; color: #fff; display: inline-block; font: 22px Montserrat; height: 66px; margin-top: 44px; padding-top: 20px; text-transform: uppercase; width: 254px; }
 
 /*Event Information*/
 
-#event-info { background-image: url('../../images/schemes/corporate-1/event-info-bkg.png'); background-repeat: no-repeat; background-position: center; color: #fff; font-size: 42px; min-height: 202px; padding-top: 50px; }
+#event-info { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/event-info-bkg.png'); background-repeat: no-repeat; background-position: center; color: #fff; font-size: 42px; min-height: 202px; padding-top: 50px; }
 #event-info .event-when, #event-info .event-where { float: left; width: 40.89%; }
 #event-info .event-where { float: right; }
 #event-info h2 { font: bold 16px Montserrat; margin: 0 0 12px; text-transform: uppercase; color: #ffffff; }
@@ -79,7 +102,7 @@ footer p { margin: 0; }
 
 #connect { padding: 54px 0 56px; }
 #connect h2 { color: #fff; font: bold 16px Montserrat; margin: 0 0 24px; text-transform: uppercase; }
-#connect a, .social-media a { background: url('../../images/schemes/corporate-1/icons-social-large.png') no-repeat; display: inline-block; height: 78px; margin-right: 5px; text-indent: -999999px; width: 69px; }
+#connect a, .social-media a { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icons-social-large.png') no-repeat; display: inline-block; height: 78px; margin-right: 5px; text-indent: -999999px; width: 69px; }
 #connect a.icon-rss, a.icon-rss { background-position: -72px 0; } 
 #connect a.icon-twitter, a.icon-twitter { background-position: -144px 0; } 
 #connect a.icon-facebook, a.icon-facebook { background-position: -216px 0; } 
@@ -106,7 +129,7 @@ footer p { margin: 0; }
 .date-picker .active .weekday { border-color: #cdd408; }
 
 .filters { float: left; margin: 0 0 30px 17.17%; width: 65.43%; }
-.filter { background: url('../../images/arrow-filter.png') 92% center #f1f1f1 no-repeat; border-radius: 6px; float: left; font: bold 16px Montserrat; height: 60px; margin: 0; padding: 0; width: 47.81%; }
+.filter { background: url('http://codeherconference.com/wp-content/themes/fudge/images/arrow-filter.png') 92% center #f1f1f1 no-repeat; border-radius: 6px; float: left; font: bold 16px Montserrat; height: 60px; margin: 0; padding: 0; width: 47.81%; }
 .filter.date-picker-mobile { display: none; }
 .filter.location { float: right; }
 .filter li { display: block; list-style: none; padding: 20px; position: relative; text-align: left; }
@@ -122,9 +145,9 @@ footer p { margin: 0; }
 #schedule-sessions a.btn-more, #schedule-sessions a.btn-less, .btn { height: 60px; margin-top: 4px; padding: 22px 26px 0; }
 
 #schedule-sessions .time, #schedule-sessions .location { color: #515151; float: left; font: bold 16px Montserrat; height: 60px; padding-top: 35px; width: 22.29%; }
-#schedule-sessions .time { background: url('../../images/schemes/corporate-1/icon-time.png') no-repeat center top; border-right: 1px solid #cdd408; }
+#schedule-sessions .time { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-time.png') no-repeat center top; border-right: 1px solid #cdd408; }
 #schedule-sessions .time.concurrent { background-image: none; }
-#schedule-sessions .location { background: url('../../images/schemes/corporate-1/icon-location.png') no-repeat center top; border-left: 1px solid #cdd408; float: right; text-transform: uppercase; }
+#schedule-sessions .location { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-location.png') no-repeat center top; border-left: 1px solid #cdd408; float: right; text-transform: uppercase; }
 
 #schedule-sessions .info { float: left; margin: 0 3.06%; width: 48.46%; }
 #schedule-sessions ul { float: left; margin: 20px 0 0 0; padding: 0; width: 100%; }
@@ -133,7 +156,7 @@ footer p { margin: 0; }
 
 .lightbox-container { background: rgba(0,0,0,.25); display: none; height: 100%; position: absolute; top: 0; width: 100%; z-index: 300; }
 .lightbox { background: #fff; border-radius: 6px; box-shadow: 1px 1px 1px rgba(0,0,0,.4); color: #6d6d6d; left: 50%; margin-left: -351px; padding: 58px 30px 30px; position: absolute; text-align: left; width: 702px; }
-.lightbox .close { background: url('../../images/btn-close.jpg') no-repeat; cursor: pointer; height: 40px; position: absolute; right: 10px; top: 10px; width: 40px; }
+.lightbox .close { background: url('http://codeherconference.com/wp-content/themes/fudge/images/btn-close.jpg') no-repeat; cursor: pointer; height: 40px; position: absolute; right: 10px; top: 10px; width: 40px; }
 .lightbox h1 { color: #121212; font-size: 32px; line-height: 36px; margin: 0 0 22px; }
 .lightbox p { margin: 0 0 36px; }
 .lightbox .tag { margin-bottom: 32px; margin-left: 5px; cursor: default; }
@@ -149,11 +172,11 @@ footer p { margin: 0; }
 
 /*Facebook RSVP*/
 
-#facebook-rsvp { background-image: url('../../images/schemes/corporate-1/facebook-rsvp-bkg.png'); background-repeat: no-repeat; background-position: center 60px; padding: 170px 0 56px; }
+#facebook-rsvp { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/facebook-rsvp-bkg.png'); background-repeat: no-repeat; background-position: center 60px; padding: 170px 0 56px; }
 #facebook-rsvp .container { max-width: 715px; }
-.facebook-rsvp-yes, .facebook-rsvp-maybe, .facebook-rsvp-no { background: url('../../images/schemes/corporate-1/facebook-rsvp-yes.png') no-repeat center top; color: #fff; display: inline-block; font: bold 16px Montserrat; padding-top: 146px; text-transform: uppercase; width: 32%; }
-.facebook-rsvp-maybe { background-image: url('../../images/schemes/corporate-1/facebook-rsvp-maybe.png') }
-.facebook-rsvp-no { background-image: url('../../images/schemes/corporate-1/facebook-rsvp-no.png'); }
+.facebook-rsvp-yes, .facebook-rsvp-maybe, .facebook-rsvp-no { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/facebook-rsvp-yes.png') no-repeat center top; color: #fff; display: inline-block; font: bold 16px Montserrat; padding-top: 146px; text-transform: uppercase; width: 32%; }
+.facebook-rsvp-maybe { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/facebook-rsvp-maybe.png') }
+.facebook-rsvp-no { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/facebook-rsvp-no.png'); }
 #facebook-rsvp span { display: block; font: 72px Muli; }
 #facebook-rsvp .btn { background: #fff; margin-top: 32px; }
 #facebook-rsvp .btn:hover { color: #121212; }
@@ -219,7 +242,7 @@ footer p { margin: 0; }
 #media-grid .post { position: relative; }
 #media-grid .post:hover { opacity: 1; }
 #media-grid .post:hover img { opacity: 1; }
-#media-grid .view { background: url('../../images/schemes/corporate-1/icon-view.png') no-repeat; display: none; height: 78px; left: 50%; margin-left: -35px; position: absolute; opacity: .5; top: 70px; width: 69px; }
+#media-grid .view { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-view.png') no-repeat; display: none; height: 78px; left: 50%; margin-left: -35px; position: absolute; opacity: .5; top: 70px; width: 69px; }
 #media-grid .view:hover { opacity: 1; }
 #media-grid .post:hover .view { display: block; }
 
@@ -230,10 +253,10 @@ footer p { margin: 0; }
 
 /*Twitter*/
 
-#twitter { background: url('../../images/schemes/corporate-1/twitter-bkg.png') no-repeat center 60px; padding: 172px 0 62px; text-align: center; }
+#twitter { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/twitter-bkg.png') no-repeat center 60px; padding: 172px 0 62px; text-align: center; }
 #twitter ul { margin: 0; padding: 0; }
 #twitter li { border: 1px solid #f0089b; border-radius: 10px; float: left; list-style: none; margin: 30px 2.06% 32px 0; min-height: 330px; padding: 60px 20px 20px; position: relative; width: 31.08%; height: 330px; }
-#twitter li span:before { background: url('../../images/schemes/corporate-1/icon-tweet.png') no-repeat; content: ""; height: 82px; left: 50%; margin-left: -54px; position: absolute; top: -41px; width: 108px; }
+#twitter li span:before { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-tweet.png') no-repeat; content: ""; height: 82px; left: 50%; margin-left: -54px; position: absolute; top: -41px; width: 108px; }
 #twitter li:last-child { margin-right: 0; }
 #twitter li span { color: #121212; font-size: 18px; line-height: 32px; }
 #twitter li span + a { display: block; font-size: 18px; margin-top: 5px; }
@@ -255,13 +278,13 @@ footer p { margin: 0; }
 
 /*Timer*/
 
-#timer { background-image: url('../../images/schemes/corporate-1/timer-bkg.png'); background-repeat: no-repeat; background-position: center 60px; color: #fff; font: bold 16px Montserrat; padding: 172px 0 56px; text-align: center; text-transform: uppercase; background-color: #cdd408 !important; }
+#timer { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/timer-bkg.png'); background-repeat: no-repeat; background-position: center 60px; color: #fff; font: bold 16px Montserrat; padding: 172px 0 56px; text-align: center; text-transform: uppercase; background-color: #cdd408 !important; }
 #timer .container { margin: 0 auto; max-width: 592px; width: 100%; }
 #timer .countdown > div { display: inline-block; margin-bottom: 30px; }
 #timer .days { margin-right: 22px; width: 170px; }
 #timer .hours, #timer .minutes, #timer .seconds { margin-right: 24px; width: 113px; }
 #timer .seconds { margin-right: 0; }
-#timer span { background: url('../../images/schemes/corporate-1/timer-number-bkg.png') no-repeat; float: left; font: 72px/72px Muli; height: 104px; margin: 0 1px 12px 0; padding-top: 18px; width: 55px; }
+#timer span { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/timer-number-bkg.png') no-repeat; float: left; font: 72px/72px Muli; height: 104px; margin: 0 1px 12px 0; padding-top: 18px; width: 55px; }
 
 /*Latest News*/
 
@@ -274,14 +297,14 @@ footer p { margin: 0; }
 /*Explore*/
 
 #explore { padding: 58px 0 0 0; position: relative; }
-#explore .poi { background-image: url('../../images/schemes/corporate-1/explore-bkg.png'); background-repeat: no-repeat; background-position: center 26px; border-radius: 6px; color: #fff; float: left; padding: 130px 40px 50px; width: 390px; position: absolute; top: 100px;left: 100px;}
+#explore .poi { background-image: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/explore-bkg.png'); background-repeat: no-repeat; background-position: center 26px; border-radius: 6px; color: #fff; float: left; padding: 130px 40px 50px; width: 390px; position: absolute; top: 100px;left: 100px;}
 #explore .poi h2 { color: #fff; font: bold 16px/18px Montserrat; margin: 0 0 18px; text-transform: uppercase; }
 #explore .poi h3 { font-size: 24px; margin: 0 0 5px; }
 #explore .poi .tagline { font-size: 18px; margin: 0 0 25px; }
 #explore .poi a { display: inline-table; font: bold 14px Montserrat; margin-bottom: 10px; text-transform: uppercase; color: #ffffff; text-decoration: underline;}
 #explore .container {height: 500px; max-width:100%;}
 
-.map-icon { background: url('../../images/schemes/corporate-1/icon-map-pointer.png') no-repeat; height: 64px; left: 50%; position: absolute; top: 50%; width: 50px; }
+.map-icon { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-map-pointer.png') no-repeat; height: 64px; left: 50%; position: absolute; top: 50%; width: 50px; }
 
 /*Contact*/
 
@@ -347,9 +370,9 @@ aside li { float: left; list-style: none; width: 100%; }
 
 #searchform { background: #fff; border-radius: 6px; float: left; height: 60px; margin-bottom: 25px; width: 100%; }
 #searchform input[type=text] { background: none; border: none; float: left; height: 60px; padding: 0 0 0 15px; width: 75%; }
-#searchform input[type=submit] { background: url('../../images/icon-search.jpg') no-repeat; border: none; float: right; height: 27px; margin: 16px 16px 0 0; text-indent: -999999px; width: 27px; }
+#searchform input[type=submit] { background: url('http://codeherconference.com/wp-content/themes/fudge/images/icon-search.jpg') no-repeat; border: none; float: right; height: 27px; margin: 16px 16px 0 0; text-indent: -999999px; width: 27px; }
 
-#fudge_quotes { background: url('../../images/schemes/corporate-1/quotes-bkg.jpg') no-repeat center top; padding-top: 102px; }
+#fudge_quotes { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/quotes-bkg.jpg') no-repeat center top; padding-top: 102px; }
 #fudge_quotes .quote { border: 1px solid #f0089b; border-radius: 6px; color: #121212; float: left; font-size: 18px; line-height: 28px; margin-bottom: 28px; padding: 25px; text-align: center; width: 100%; }
 #fudge_quotes .quote p { margin: 0; }
 #fudge_quotes .quote span { color: #a1a1a1; font-size: 16px; }
@@ -362,10 +385,10 @@ aside li { float: left; list-style: none; width: 100%; }
 .single-post #blog h1 { font-size: 42px; line-height: 44px; margin-bottom: 15px; text-align: left; }
 .single-post .navigation { margin-bottom: 74px; }
 
-.commentlist { background: url('../../images/schemes/corporate-1/comments-bkg.png') no-repeat center top; float: left; margin: 0; padding: 120px 0 0; width: 100%; }
+.commentlist { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/comments-bkg.png') no-repeat center top; float: left; margin: 0; padding: 120px 0 0; width: 100%; }
 .commentlist li { float: left; list-style: none; margin-bottom: 26px; width: 100%; }
 .commentlist .comment-content { background: #fff; border: 1px solid #f0089b; border-radius: 6px; color: #121212; float: left; line-height: 28px; margin-bottom: 22px; padding: 15px 18px; position: relative; width: 100%; }
-.commentlist .comment-content:after { background: url('../../images/schemes/corporate-1/comment-arrow.png') no-repeat center top; bottom: -13px; content: ""; height: 14px; left: 0; position: absolute; width: 100%; }
+.commentlist .comment-content:after { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/comment-arrow.png') no-repeat center top; bottom: -13px; content: ""; height: 14px; left: 0; position: absolute; width: 100%; }
 .commentlist .comment-content:last-child { margin-bottom: 0; }
 .commentlist .comment-meta { float: left; text-align: center; width: 100%; }
 
@@ -381,7 +404,7 @@ aside li { float: left; list-style: none; width: 100%; }
 
 /* Twitter Full Screen */
 .page-template-page-twitter-full-screen-php header, .page-template-page-twitter-full-screen-php footer { display:none; }
-.page-template-page-twitter-full-screen-php #twitter { background: url('../../images/schemes/corporate-1/twitter-bkg.png') no-repeat center 15px; padding: 90px 0 62px; text-align: center; }
+.page-template-page-twitter-full-screen-php #twitter { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/twitter-bkg.png') no-repeat center 15px; padding: 90px 0 62px; text-align: center; }
 .page-template-page-twitter-full-screen-php #twitter li:first-child .avatar {display:none;}
 .page-template-page-twitter-full-screen-php #twitter .avatar {width: 70px;position: absolute;top: 0;left: 40%;top: -29px; border-radius: 6px;}
 .page-template-page-twitter-full-screen-php #twitter span:before {background-image: none;}
@@ -398,7 +421,7 @@ aside li { float: left; list-style: none; width: 100%; }
 
 /*****OLD IE STYLES *******/
 
-.lt-ie9 .lightbox-container { background: url('../../images/ie-lightbox-bkg.png'); }
+.lt-ie9 .lightbox-container { background: url('http://codeherconference.com/wp-content/themes/fudge/images/ie-lightbox-bkg.png'); }
 .lt-ie9 #twitter_update_list li, .lt-ie9 .post { margin-right: 5%; width: 40%; }
 
 .lt-ie9 .container-btns .btn { width: 246px; }
@@ -420,7 +443,7 @@ aside li { float: left; list-style: none; width: 100%; }
     header, .home header { height: 112px; }
     .home header, .page-template-page-event-over-php header { margin: 0; position: absolute; top: 3px; }
     header .logo { width: 222px; }
-    header .mobile-nav-icon { background: url('../../images/icon-mobile-nav.png') no-repeat center #f0089b; border-radius: 6px; cursor: pointer; display: block; float: right; height: 50px; margin-top: 10px; width: 54px; }
+    header .mobile-nav-icon { background: url('http://codeherconference.com/wp-content/themes/fudge/images/icon-mobile-nav.png') no-repeat center #f0089b; border-radius: 6px; cursor: pointer; display: block; float: right; height: 50px; margin-top: 10px; width: 54px; }
     header ul { background: #fff; display: none; left: 0; margin: 0; padding-bottom: 20px; position: absolute; top: 90px; width: 100%; }
     header li { background: #fff; display: block; float: none; margin: 0; padding: 14px 0;  }
     header .register { display: none; }
@@ -429,8 +452,8 @@ aside li { float: left; list-style: none; width: 100%; }
 
     #event-info { background-image: none; padding-bottom: 52px; }
     #event-info .event-when, #event-info .event-where { padding-top: 104px; width: 44.27%; }
-    #event-info .event-when { background: url('../../images/schemes/corporate-1/icon-event-when.png') no-repeat center top; }
-    #event-info .event-where { background: url('../../images/schemes/corporate-1/icon-event-where.png') no-repeat center top; }
+    #event-info .event-when { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-event-when.png') no-repeat center top; }
+    #event-info .event-where { background: url('http://codeherconference.com/wp-content/themes/fudge/images/schemes/corporate-1/icon-event-where.png') no-repeat center top; }
 
     #explore .container {max-width:85%;}
 }
@@ -532,7 +555,7 @@ aside li { float: left; list-style: none; width: 100%; }
 
     .date-picker { display: none; }
     .filter.date-picker-mobile { display: block; padding-left: 0px; }
-    .filter.date-picker-mobile > li { background: url('../../images/icon-calendar.png') no-repeat 10px center;  padding-left: 50px; }
+    .filter.date-picker-mobile > li { background: url('http://codeherconference.com/wp-content/themes/fudge/images/icon-calendar.png') no-repeat 10px center;  padding-left: 50px; }
     .filter.date-picker-mobile > li > a { color: #fff;  }
 
     #media-grid .post:hover .view {display:none;}
@@ -565,3 +588,8 @@ aside li { float: left; list-style: none; width: 100%; }
 /******PRINT STYLES*********/
 
 @media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}a{text-decoration:underline}a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after{content:""}a[href^="javascript:"]:after{content:""}a[href^="#"]:after{content:""}pre{border:1px solid #999;page-break-inside:avoid}blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr{page-break-inside:avoid}img{page-break-inside:avoid;max-width:100%!important}@page{margin:.5cm}p{orphans:3;widows:3}h2{orphans:3;widows:3;page-break-after:avoid}h3{orphans:3;widows:3;page-break-after:avoid}}
+
+    Status API Training Shop Blog About 
+
+    © 2015 GitHub, Inc. Terms Privacy Security Contact 
+
